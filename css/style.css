@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@200;500;700;900&display=swap');
+
+body{
+  background: url(/images/pattern-background-desktop.svg) no-repeat center;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+  width: 100%;
+  overflow: hidden;
+
+}
+
+main{
+  max-width: 450px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border-radius: 15px 15px 10px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 15px rgba(32, 32, 32, .2);
+}
+
+/* IMAGEM */
+  .imagem img{
+    border-radius: 15px 15px 0 0;
+    box-shadow: 5px 5px 15px rgba(32, 32, 32, .2);
+  }
+
+/* TITULO */
+
+.titulo h1{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+}
+
+.titulo p{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 200;
+  padding: 0 40px;
+  color: rgb(114, 114, 114);
+}
+
+/* PLANO */
+.plano{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(225, 100%, 98%);
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.valor-plano{
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+ .plano button{
+  margin-left: 20%;
+  border: none;
+  background: none;
+  color: rgb(142, 69, 211);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.plano button:hover{
+  color: rgb(155, 155, 155);
+}
+
+.valor-plano h1{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.valor-plano p{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 200;
+  color: rgb(143, 143, 143);
+  margin-top: 0;
+}
+
+/* BOTOES */
+
+.btns{
+  display: flex;
+  flex-direction:column;
+  padding: 0 0 20px 0;
+}
+
+.pagamento{
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: hsl(249, 100%, 72%);
+  color: rgb(255, 255, 255);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(32, 32, 32, .2);
+  cursor: pointer;
+}
+
+.cancelar{
+  margin-bottom: 40px;
+  background: none;
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+  cursor: pointer;
+  color: rgb(94, 94, 94);
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.pagamento:hover{
+  background: hsl(249, 100%, 64%);
+}
+
+.cancelar:hover{
+ color: hsl(249, 100%, 64%);
+}
+
