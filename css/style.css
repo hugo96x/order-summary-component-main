@@ -126,3 +126,7 @@ main{
  color: sl(245, 75%, 52%);
 }
 
+.attribution{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+}
