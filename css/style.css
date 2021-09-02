@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@200;500;700;900&display=swap');
 
 body{
-  background: url(/images/pattern-background-desktop.svg) no-repeat center;
+  background: url(./images/pattern-background-desktop.svg) no-repeat center;
   background-size: cover;
   background-color: hsl(225, 100%, 94%);
   width: 100%;
@@ -60,7 +60,7 @@ main{
   margin-left: 20%;
   border: none;
   background: none;
-  color: rgb(142, 69, 211);
+  color: hsl(245, 75%, 52%);
   font-size: 1rem;
   cursor: pointer;
 }
@@ -96,7 +96,7 @@ main{
   text-align: center;
   justify-content: center;
   margin: 0 auto;
-  background: hsl(249, 100%, 72%);
+  background: hsl(245, 75%, 52%);
   color: rgb(255, 255, 255);
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 200;
@@ -119,10 +119,10 @@ main{
 }
 
 .pagamento:hover{
-  background: hsl(249, 100%, 64%);
+  background: hsl(245, 83%, 48%);
 }
 
 .cancelar:hover{
- color: hsl(249, 100%, 64%);
+ color: sl(245, 75%, 52%);
 }
 
